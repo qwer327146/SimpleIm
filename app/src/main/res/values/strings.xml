@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleIm</string>
+    <string name="splash_url">www.skyrim.top</string>
+    <string name="splash_welcome_text">欢迎使用简单通讯!</string>
+    <string name="login_appname">简单通讯</string>
+    <string name="login_username">用户名：</string>
+    <string name="login_password">密\t\t\t码：</string>
+    <string name="login_regist">注册</string>
+    <string name="login_login">登录</string>
+</resources>

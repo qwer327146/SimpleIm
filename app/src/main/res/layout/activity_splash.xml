@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.skyrim.simpleim.controller.activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:text="@string/splash_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:text="@string/splash_welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
